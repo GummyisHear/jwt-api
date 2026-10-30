@@ -5,6 +5,9 @@ import jwt
 from flask import Flask, jsonify, request
 import os
 
+from dotenv import load_dotenv
+load_dotenv()
+
 app = Flask(__name__)
 
 SALAVOTI = os.environ["JWT_SALAVOTI"]
