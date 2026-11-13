@@ -5,7 +5,7 @@ Flask + PyJWT näide: /login, /profiil, /admin.
 ## Käivitamine
 ```bash
 pip install flask pyjwt
-pip install python-dotnet
+pip install python-dotenv
 python app.py
 ```
 
